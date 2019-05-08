@@ -119,7 +119,7 @@ class myEventHandler implements EventHandlerInterface{
      * */
     function onCancel($transactionReference){
         // Do something, anything!
-        // Note: Somethings a payment can be successful, before a user clicks the cancel button so proceed with caution
+        // Note: Sometimes a payment can be successful, before a user clicks the cancel button so proceed with caution
         echo 'Payment canceled by user......'.$transactionReference.'<br />'; //Remember to delete this line
     }
     
